@@ -1,19 +1,19 @@
-# Fremer
+# Fremer (VLDB 2025 Paper)
 
-This is the official code repository of the paper: Fremer: Lightweight and Effective Frequency Transformer for Workload Forecasting in Cloud Services.
-
+Fremer: Lightweight and Effective Frequency Transformer for Workload Forecasting in Cloud Services.
 
 # Performance
+
 Comparison of throughput and prediction error
-among different Transformers on IaaS workload dataset. 
+among different Transformers on IaaS workload dataset:
 
 ![Performance](figs/performance.png)
 
-# Model Architecture
-![Fremer](figs/Fremer_model.jpg)
+---
 
+Forecasting results on distinct workload series datasets:
 
-
+![Main Results](figs/main-results.png)
 
 # Usage
 1) Installation
@@ -36,6 +36,20 @@ For example:
 
 ```
 bash ./scripts/multivariate_forecast/RDS_script/Fremer.sh
+```
+# Citation
+
+If you find this work useful, please cite our paper:
+```
+@article{ye2025fremer,
+  title   = {Fremer: Lightweight and Effective Frequency Transformer for Workload Forecasting in Cloud Services},
+  author  = {Hengyu Ye and Jiadong Chen and Fuxin Jiang and Xiao He and Tieying Zhang and Jianjun Chen and Xiaofeng Gao},
+  journal = {Proceedings of the VLDB Endowment},
+  volume  = {18},
+  number  = {11},
+  pages   = {3812--3825},
+  year    = {2025}
+}
 ```
 
 # Acknowledgement
