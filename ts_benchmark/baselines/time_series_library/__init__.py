@@ -20,13 +20,7 @@ __all__ = [
     "TimesNet",
     "Transformer",
     "Triformer",
-    "TimeMixer",
-    "Fremer1",
-    "Fremer2",
-    "Fremer3",
-    "Fremer4",
-    "Fremer5",
-    "Fremer6"
+    "TimeMixer"
 ]
 
 
@@ -51,9 +45,3 @@ from ts_benchmark.baselines.time_series_library.models.TimesNet import TimesNet
 from ts_benchmark.baselines.time_series_library.models.Transformer import Transformer
 from ts_benchmark.baselines.time_series_library.patchs.Triformer import Triformer
 from ts_benchmark.baselines.time_series_library.models.TimeMixer import TimeMixer
-from ts_benchmark.baselines.time_series_library.models.Fremer1 import Fremer1
-from ts_benchmark.baselines.time_series_library.models.Fremer2 import Fremer2
-from ts_benchmark.baselines.time_series_library.models.Fremer3 import Fremer3
-from ts_benchmark.baselines.time_series_library.models.Fremer4 import Fremer4
-from ts_benchmark.baselines.time_series_library.models.Fremer5 import Fremer5
-from ts_benchmark.baselines.time_series_library.models.Fremer6 import Fremer6
